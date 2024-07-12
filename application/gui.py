@@ -32,7 +32,7 @@ class LWmacroApp:
         style.configure("TButton", font=("Helvetica", 12), padding=10, background="#3498db", foreground="#fff", focuscolor="#2980b9", relief="flat", borderwidth=0)
         style.map("TButton", background=[("active", "#2980b9")])
 
-        update_label = tk.Label(self.root, text="Version 1.9.9", font=("Helvetica", 8), bg="#2c3e50", fg="#ecf0f1")
+        update_label = tk.Label(self.root, text="Version 2.0-beta.1", font=("Helvetica", 8), bg="#2c3e50", fg="#ecf0f1")
         update_label.place(relx=0.5, rely=0.0, anchor='n')
 
         title = tk.Label(self.root, text="LWmacro", font=("Helvetica", 16), bg="#2c3e50", fg="#ecf0f1")
@@ -186,7 +186,7 @@ class LWmacroApp:
         changelogs_text.pack(fill=tk.BOTH, expand=True)
 
         changelogs = """
-        Version 2.0:
+        Version 2.0-beta.1:
         - Release on GitHub
         - Open source
 
@@ -277,7 +277,7 @@ class LWmacroApp:
 
     def show_credits(self):
         credits = """
-        LWmacro v1.9.7
+        LWmacro 2.0-beta.1
         Developed by Jet
 
         Special thanks to:
