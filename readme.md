@@ -13,7 +13,7 @@ Installation:
 3. Open terminal then paste in:
 pip install -r requirements.txt
 
-4. then open the shortcut: LWmacro (which open the gui.py in applications folder)
+4. then open the ~~shortcut: LWmacro (which open the gui.py in applications folder)~~ application folder then press on gui.py, you can make a shortcut for this
 -----------------------------------
 
 For feedback/requests for new features you can contact me on:
